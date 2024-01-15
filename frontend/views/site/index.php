@@ -24,7 +24,7 @@ $this->title = 'My Yii Application';
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
-                    <?php echo $count ?>
+                    Количество ячеек, содержащих в себе значение 0, и имеющие рядом с собой больше двух ячеек содержащих значение 1 - <?php echo $count ?>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
